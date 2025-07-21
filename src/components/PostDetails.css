@@ -1,0 +1,20 @@
+.details-container{
+   
+   width: 90%;
+   
+   box-shadow: 2px 3px 4px 5px grey;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#id{
+    font-size: larger;
+    color:rgb(139, 6, 6)
+}
+.Back-link{
+    text-decoration: none;
+    color: rgb(211, 18, 18);
+}
