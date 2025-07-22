@@ -17,6 +17,10 @@
 margin: 10px;
 gap: 5px;
 }
+
+.pagination :hover{
+  background-color: rgb(47, 47, 229);
+}
   
   .List-title {
     width: 90%;
