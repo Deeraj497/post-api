@@ -20,7 +20,7 @@ function PostList() {
                     }
                 });
                 setPosts(res.data);
-                setTotalPosts(parseInt(res.headers['x-total-count']) || 100); // JSONPlaceholder returns 100 posts
+                setTotalPosts(parseInt(res.headers['x-total-count']) || 100);
             } catch (err) {
                 console.error('Error fetching posts', err);
             }
